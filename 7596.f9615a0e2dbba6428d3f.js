@@ -302,8 +302,8 @@
               path: "players",
               loadChildren: () =>
                 n
-                  .e(4047)
-                  .then(n.bind(n, 4047))
+                  .e(3461)
+                  .then(n.bind(n, 3461))
                   .then((e) => e.PlayersPageModule),
             },
             {
