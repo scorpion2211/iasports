@@ -37,16 +37,16 @@
       var o = n(8583),
         i = n(3083),
         s = n(7338),
-        a = n(665),
-        r = n(639);
+        r = n(665),
+        a = n(639);
       let c = (() => {
         class e {}
         return (
           (e.ɵfac = function (t) {
             return new (t || e)();
           }),
-          (e.ɵmod = r.oAB({ type: e })),
-          (e.ɵinj = r.cJS({ imports: [[o.ez, i.Pc, s.Bz, a.UX, a.u5]] })),
+          (e.ɵmod = a.oAB({ type: e })),
+          (e.ɵinj = a.cJS({ imports: [[o.ez, i.Pc, s.Bz, r.UX, r.u5]] })),
           e
         );
       })();
@@ -57,9 +57,9 @@
       var o = n(8583),
         i = n(665),
         s = n(3083),
-        a = n(7338),
-        r = n(639),
-        c = n(7702),
+        r = n(7338),
+        a = n(639),
+        c = n(7019),
         l = n(4762);
       let d = (() => {
           class e {
@@ -86,9 +86,9 @@
           }
           return (
             (e.ɵfac = function (t) {
-              return new (t || e)(r.Y36(s.SH), r.Y36(s.Dh));
+              return new (t || e)(a.Y36(s.SH), a.Y36(s.Dh));
             }),
-            (e.ɵcmp = r.Xpm({
+            (e.ɵcmp = a.Xpm({
               type: e,
               selectors: [["app-close-session"]],
               decls: 6,
@@ -101,19 +101,19 @@
               ],
               template: function (e, t) {
                 1 & e &&
-                  (r.TgZ(0, "ion-list", 0),
-                  r.TgZ(1, "ion-item", 1),
-                  r.TgZ(2, "ion-label"),
-                  r._uU(3, "Cerrar Sessi\xf3n"),
-                  r.qZA(),
-                  r.TgZ(4, "ion-button", 2),
-                  r.NdJ("click", function () {
+                  (a.TgZ(0, "ion-list", 0),
+                  a.TgZ(1, "ion-item", 1),
+                  a.TgZ(2, "ion-label"),
+                  a._uU(3, "Cerrar Sessi\xf3n"),
+                  a.qZA(),
+                  a.TgZ(4, "ion-button", 2),
+                  a.NdJ("click", function () {
                     return t.Exit();
                   }),
-                  r._UZ(5, "ion-icon", 3),
-                  r.qZA(),
-                  r.qZA(),
-                  r.qZA());
+                  a._UZ(5, "ion-icon", 3),
+                  a.qZA(),
+                  a.qZA(),
+                  a.qZA());
               },
               directives: [s.q_, s.Ie, s.Q$, s.YG, s.gu],
               styles: [""],
@@ -142,9 +142,9 @@
           }
           return (
             (e.ɵfac = function (t) {
-              return new (t || e)(r.Y36(s.BX), r.Y36(s.Dh));
+              return new (t || e)(a.Y36(s.BX), a.Y36(s.Dh));
             }),
-            (e.ɵcmp = r.Xpm({
+            (e.ɵcmp = a.Xpm({
               type: e,
               selectors: [["app-header"]],
               inputs: { title: "title" },
@@ -181,25 +181,25 @@
               ],
               template: function (e, t) {
                 1 & e &&
-                  (r.TgZ(0, "ion-header", 0),
-                  r.TgZ(1, "ion-toolbar", 1),
-                  r._UZ(2, "img", 2),
-                  r.TgZ(3, "ion-title", 3),
-                  r._uU(4),
-                  r.qZA(),
-                  r._UZ(5, "div"),
-                  r._UZ(6, "ion-menu-button", 4),
-                  r.TgZ(7, "ion-buttons", 5),
-                  r.TgZ(8, "ion-button", 6),
-                  r.NdJ("click", function (e) {
+                  (a.TgZ(0, "ion-header", 0),
+                  a.TgZ(1, "ion-toolbar", 1),
+                  a._UZ(2, "img", 2),
+                  a.TgZ(3, "ion-title", 3),
+                  a._uU(4),
+                  a.qZA(),
+                  a._UZ(5, "div"),
+                  a._UZ(6, "ion-menu-button", 4),
+                  a.TgZ(7, "ion-buttons", 5),
+                  a.TgZ(8, "ion-button", 6),
+                  a.NdJ("click", function (e) {
                     return t.Opciones(e);
                   }),
-                  r._UZ(9, "ion-icon", 7),
-                  r.qZA(),
-                  r.qZA(),
-                  r.qZA(),
-                  r.qZA()),
-                  2 & e && (r.xp6(4), r.Oqu(t.title));
+                  a._UZ(9, "ion-icon", 7),
+                  a.qZA(),
+                  a.qZA(),
+                  a.qZA(),
+                  a.qZA()),
+                  2 & e && (a.xp6(4), a.Oqu(t.title));
               },
               directives: [s.Gu, s.sr, s.wd, s.fG, s.Sm, s.YG, s.gu],
               styles: [
@@ -213,20 +213,20 @@
       function p(e, t) {
         if (
           (1 & e &&
-            (r.TgZ(0, "ion-tab-button", 5),
-            r._UZ(1, "ion-icon", 6),
-            r.TgZ(2, "ion-label"),
-            r._uU(3),
-            r.qZA(),
-            r.qZA()),
+            (a.TgZ(0, "ion-tab-button", 5),
+            a._UZ(1, "ion-icon", 6),
+            a.TgZ(2, "ion-label"),
+            a._uU(3),
+            a.qZA(),
+            a.qZA()),
           2 & e)
         ) {
           const e = t.$implicit;
-          r.Q6J("tab", e.value),
-            r.xp6(1),
-            r.Q6J("name", e.icon),
-            r.xp6(2),
-            r.Oqu(e.name);
+          a.Q6J("tab", e.value),
+            a.xp6(1),
+            a.Q6J("name", e.icon),
+            a.xp6(2),
+            a.Oqu(e.name);
         }
       }
       const m = [
@@ -241,16 +241,15 @@
                     { value: "players", name: "Jugadores", icon: "people" },
                     { value: "profile", name: "Perfil", icon: "person-circle" },
                   ]),
-                  this.subjects.LoadList(),
                   this.subjects.loadSession();
               }
               ngOnInit() {}
             }
             return (
               (e.ɵfac = function (t) {
-                return new (t || e)(r.Y36(c.n));
+                return new (t || e)(a.Y36(c.n));
               }),
-              (e.ɵcmp = r.Xpm({
+              (e.ɵcmp = a.Xpm({
                 type: e,
                 selectors: [["app-home"]],
                 decls: 9,
@@ -266,21 +265,21 @@
                 ],
                 template: function (e, t) {
                   1 & e &&
-                    (r._UZ(0, "app-header", 0),
-                    r.TgZ(1, "ion-content"),
-                    r.TgZ(2, "div", 1),
-                    r._UZ(3, "app-background"),
-                    r.TgZ(4, "h1"),
-                    r._uU(5, "Bienvenido"),
-                    r.qZA(),
-                    r.qZA(),
-                    r.TgZ(6, "ion-tabs", 2),
-                    r.TgZ(7, "ion-tab-bar", 3),
-                    r.YNc(8, p, 4, 3, "ion-tab-button", 4),
-                    r.qZA(),
-                    r.qZA(),
-                    r.qZA()),
-                    2 & e && (r.xp6(8), r.Q6J("ngForOf", t.tabs));
+                    (a._UZ(0, "app-header", 0),
+                    a.TgZ(1, "ion-content"),
+                    a.TgZ(2, "div", 1),
+                    a._UZ(3, "app-background"),
+                    a.TgZ(4, "h1"),
+                    a._uU(5, "Bienvenido"),
+                    a.qZA(),
+                    a.qZA(),
+                    a.TgZ(6, "ion-tabs", 2),
+                    a.TgZ(7, "ion-tab-bar", 3),
+                    a.YNc(8, p, 4, 3, "ion-tab-button", 4),
+                    a.qZA(),
+                    a.qZA(),
+                    a.qZA()),
+                    2 & e && (a.xp6(8), a.Q6J("ngForOf", t.tabs));
                 },
                 directives: [g, s.W2, u.S, s.UN, s.yq, o.sg, s.ZU, s.gu, s.Q$],
                 styles: [
@@ -322,8 +321,8 @@
           (e.ɵfac = function (t) {
             return new (t || e)();
           }),
-          (e.ɵmod = r.oAB({ type: e })),
-          (e.ɵinj = r.cJS({ imports: [[a.Bz.forChild(m)], a.Bz] })),
+          (e.ɵmod = a.oAB({ type: e })),
+          (e.ɵinj = a.cJS({ imports: [[r.Bz.forChild(m)], r.Bz] })),
           e
         );
       })();
@@ -334,8 +333,8 @@
           (e.ɵfac = function (t) {
             return new (t || e)();
           }),
-          (e.ɵmod = r.oAB({ type: e })),
-          (e.ɵinj = r.cJS({ imports: [[o.ez, i.u5, s.Pc, h, f.K]] })),
+          (e.ɵmod = a.oAB({ type: e })),
+          (e.ɵinj = a.cJS({ imports: [[o.ez, i.u5, s.Pc, h, f.K]] })),
           e
         );
       })();

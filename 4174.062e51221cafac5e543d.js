@@ -14,7 +14,7 @@
         m = t.n(g),
         c = t(639),
         d = t(167),
-        p = t(7702),
+        p = t(7019),
         u = t(7526);
       function h(e, i) {
         if (
@@ -262,7 +262,7 @@
                           });
                           const e = btoa(JSON.stringify(i.data));
                           return (
-                            localStorage.setItem("token", e),
+                            localStorage.setItem("user", e),
                             void this.navCtrl.navigateForward("/home/schedule")
                           );
                         }

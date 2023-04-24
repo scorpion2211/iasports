@@ -1,42 +1,44 @@
 (self.webpackChunkMiLocal = self.webpackChunkMiLocal || []).push([
   [6158],
   {
-    6158: (o, t, n) => {
+    6158: (o, t, e) => {
       "use strict";
-      n.r(t), n.d(t, { LoginPageModule: () => h });
-      var e = n(8583),
-        i = n(665),
-        r = n(7338),
-        s = n(3083),
-        a = n(4762),
-        c = n(5304),
-        u = n(8259),
-        d = n.n(u),
-        l = n(639),
-        g = n(752),
-        p = n(7702);
-      const m = [
+      e.r(t), e.d(t, { LoginPageModule: () => w });
+      var n = e(8583),
+        r = e(665),
+        i = e(7338),
+        s = e(3083),
+        a = e(4762),
+        c = e(5304),
+        u = e(8259),
+        d = e.n(u),
+        l = e(639),
+        g = e(752),
+        p = e(7019),
+        m = e(7207);
+      const h = [
         {
           path: "",
           component: (() => {
             class o {
-              constructor(o, t, n, e, r) {
+              constructor(o, t, e, n, i, s) {
                 (this.formBuilder = o),
                   (this.postServices = t),
-                  (this.subjects = n),
-                  (this.navCtrl = e),
-                  (this.loadingCtrl = r),
+                  (this.subjects = e),
+                  (this.navCtrl = n),
+                  (this.vars = i),
+                  (this.loadingCtrl = s),
                   (this.showPasswordIcon = "eye-off-outline"),
                   (this.passwordInputType = "password"),
                   (this.loginForm = this.formBuilder.group({
-                    username: ["", i.kI.required],
-                    password: ["", i.kI.required],
+                    username: ["", r.kI.required],
+                    password: ["", r.kI.required],
                   }));
               }
               ngOnInit() {
                 this.loginForm = this.formBuilder.group({
-                  username: ["", i.kI.required],
-                  password: ["", i.kI.required],
+                  username: ["", r.kI.required],
+                  password: ["", r.kI.required],
                 });
               }
               onSubmit() {
@@ -78,7 +80,11 @@
                             text: t.message,
                           });
                         this.subjects.user$.next(t.data);
-                        const n = btoa(JSON.stringify(t.data));
+                        const e = btoa(JSON.stringify(t.data));
+                        localStorage.setItem("user", e);
+                        const n = this.vars.CrearToken(
+                          this.loginForm.get("username").value
+                        );
                         localStorage.setItem("token", n),
                           this.navCtrl.navigateForward("/home/schedule");
                       });
@@ -104,10 +110,11 @@
             return (
               (o.ɵfac = function (t) {
                 return new (t || o)(
-                  l.Y36(i.qu),
+                  l.Y36(r.qu),
                   l.Y36(g.P),
                   l.Y36(p.n),
                   l.Y36(s.SH),
+                  l.Y36(m.a),
                   l.Y36(s.HT)
                 );
               }),
@@ -259,20 +266,20 @@
                 directives: [
                   s.W2,
                   s.PM,
-                  i._Y,
-                  i.JL,
-                  i.sg,
+                  r._Y,
+                  r.JL,
+                  r.sg,
                   s.Ie,
                   s.gu,
                   s.pK,
                   s.j9,
-                  i.JJ,
-                  i.u,
+                  r.JJ,
+                  r.u,
                   s.YG,
                   s.Nd,
                   s.wI,
                   s.YI,
-                  r.rH,
+                  i.rH,
                 ],
                 styles: [
                   ".container[_ngcontent-%COMP%]{display:flex;justify-content:center;align-items:center;height:100%;background-image:url(./assets/img/b1.jpg);background-size:cover;background-position:50%}.login-card[_ngcontent-%COMP%]{width:90%;max-width:500px;background-color:#ffffffb3;box-shadow:0 0 10px #00000080;border-radius:10px;padding:20px;text-align:center}.login-logo[_ngcontent-%COMP%]{width:200px;margin:20px auto;display:block;border-radius:5px}ion-item[_ngcontent-%COMP%]{margin-bottom:10px;--border-radius:10px}ion-input[_ngcontent-%COMP%]{--padding-start:10px}.forgot-button[_ngcontent-%COMP%]{--border-radius:10px;text-decoration:none}@media (min-width: 768px){.login-card[_ngcontent-%COMP%]{width:50%}}",
@@ -290,18 +297,18 @@
               return new (t || o)();
             }),
             (o.ɵmod = l.oAB({ type: o })),
-            (o.ɵinj = l.cJS({ imports: [[r.Bz.forChild(m)], r.Bz] })),
+            (o.ɵinj = l.cJS({ imports: [[i.Bz.forChild(h)], i.Bz] })),
             o
           );
         })(),
-        h = (() => {
+        w = (() => {
           class o {}
           return (
             (o.ɵfac = function (t) {
               return new (t || o)();
             }),
             (o.ɵmod = l.oAB({ type: o })),
-            (o.ɵinj = l.cJS({ imports: [[e.ez, i.u5, s.Pc, f, i.UX, r.Bz]] })),
+            (o.ɵinj = l.cJS({ imports: [[n.ez, r.u5, s.Pc, f, r.UX, i.Bz]] })),
             o
           );
         })();
